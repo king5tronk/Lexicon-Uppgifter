@@ -5,7 +5,7 @@ VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift2", "Uppgift2\Uppgift2.csproj", "{25C98B2D-CA6D-4AEC-A566-EEBCCE83ADDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift3 Pokemon", "..\Uppgift3 Pokemon\Uppgift3 Pokemon\Uppgift3 Pokemon.csproj", "{2F519BAC-6168-296C-C710-4876D88F4CF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift3 Pokemon", "Uppgift3 Pokemon\Uppgift3 Pokemon.csproj", "{6D14B6AB-BF7E-4630-B321-B5E55F686DE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{25C98B2D-CA6D-4AEC-A566-EEBCCE83ADDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25C98B2D-CA6D-4AEC-A566-EEBCCE83ADDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25C98B2D-CA6D-4AEC-A566-EEBCCE83ADDC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2F519BAC-6168-296C-C710-4876D88F4CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2F519BAC-6168-296C-C710-4876D88F4CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2F519BAC-6168-296C-C710-4876D88F4CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2F519BAC-6168-296C-C710-4876D88F4CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D14B6AB-BF7E-4630-B321-B5E55F686DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D14B6AB-BF7E-4630-B321-B5E55F686DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D14B6AB-BF7E-4630-B321-B5E55F686DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D14B6AB-BF7E-4630-B321-B5E55F686DE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
