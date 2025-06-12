@@ -129,38 +129,41 @@ namespace Uppgift2
         // Denna metod beräknar priset för en person baserat på ålder
         private int GetPriceForPerson()
         {
-            Console.Write("Ange ålder: ");
-            string input = Console.ReadLine();
+            while (true)
+            {
+                Console.Write("Ange ålder: ");
+                string input = Console.ReadLine();
 
-            try
-            {
-                int age = int.Parse(input);
+                try
+                {
+                    int age = int.Parse(input);
 
-                if (age < 20)
-                {
-                    Console.WriteLine("Ungdomspris: 80kr");
-                    return 80;
+                    if (age < 20)
+                    {
+                        Console.WriteLine("Ungdomspris: 80kr");
+                        return 80;
+                    }
+                    else if (age >= 65)
+                    {
+                        Console.WriteLine("Pensionärspris: 90kr");
+                        return 90;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Standardpris: 120kr");
+                        return 120;
+                    }
                 }
-                else if (age >= 65)
+                catch (FormatException)
                 {
-                    Console.WriteLine("Pensionärspris: 90kr");
-                    return 90;
+                    Console.WriteLine("Fel: Du måste skriva ett heltal för åldern.");
+                    return GetPriceForPerson(); // Försök igen vid fel
                 }
-                else
+                catch (OverflowException)
                 {
-                    Console.WriteLine("Standardpris: 120kr");
-                    return 120;
+                    Console.WriteLine("Fel: Det angivna talet är för stort eller för litet.");
+                    return GetPriceForPerson(); // Försök igen vid fel
                 }
-            }
-            catch (FormatException)
-            {
-                Console.WriteLine("Fel: Du måste skriva ett heltal för åldern.");
-                return GetPriceForPerson(); // Försök igen vid fel
-            }
-            catch (OverflowException)
-            {
-                Console.WriteLine("Fel: Det angivna talet är för stort eller för litet.");
-                return GetPriceForPerson(); // Försök igen vid fel
             }
         }
 

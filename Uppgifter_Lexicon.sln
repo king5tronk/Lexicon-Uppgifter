@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift2", "Uppgift2\Uppgif
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift3 Pokemon", "Uppgift3 Pokemon\Uppgift3 Pokemon.csproj", "{6D14B6AB-BF7E-4630-B321-B5E55F686DE6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift4 Minneshantering", "Uppgift4 Minneshantering\Uppgift4 Minneshantering.csproj", "{EEC49ABC-52F8-43E7-9E39-BA8AC792EA42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6D14B6AB-BF7E-4630-B321-B5E55F686DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D14B6AB-BF7E-4630-B321-B5E55F686DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D14B6AB-BF7E-4630-B321-B5E55F686DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC49ABC-52F8-43E7-9E39-BA8AC792EA42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC49ABC-52F8-43E7-9E39-BA8AC792EA42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC49ABC-52F8-43E7-9E39-BA8AC792EA42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC49ABC-52F8-43E7-9E39-BA8AC792EA42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
