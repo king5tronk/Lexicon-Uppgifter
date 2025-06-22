@@ -15,6 +15,11 @@ namespace Uppgift5_Garage.Vehicles
             Length = length;
             Type = type;
         }
+
+        public override string Describe()
+        {
+            return $"Boat | RegNr: {RegNr}, Color: {Color}, Wheels: {NumberOfWheels}, Length: {Length}m";
+        }
     }
 
 }

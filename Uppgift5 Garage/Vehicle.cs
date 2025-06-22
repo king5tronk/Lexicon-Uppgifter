@@ -8,16 +8,18 @@ namespace Uppgift5_Garage
 {
     public abstract class Vehicle : IVehicle
     {
-        public  string RegNr { get; set; }
-        public  string Color { get; set; }
-        public  int NumberOfWheels { get; set; }
+        public string RegNr { get; set; }
+        public string Color { get; set; }
+        public int NumberOfWheels { get; set; }
 
-        protected Vehicle(string regNr, string color, int wheels)
+        protected Vehicle(string regNr, string color, int numberOfWheels)
         {
             RegNr = regNr;
             Color = color;
-            NumberOfWheels = wheels;
+            NumberOfWheels = numberOfWheels;
         }
 
+        // Beskrivning som varje fordonstyp implementerar själv
+        public abstract string Describe();
     }
 }

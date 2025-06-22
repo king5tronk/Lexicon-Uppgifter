@@ -11,5 +11,7 @@ namespace Uppgift5_Garage
         public string RegNr { get;  }
         public string Color { get; }
         public int NumberOfWheels { get; }
+
+        string Describe();
     }
 }

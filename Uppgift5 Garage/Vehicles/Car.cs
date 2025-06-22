@@ -17,5 +17,10 @@ namespace Uppgift5_Garage.Vehicles
             Model = model;
             FuelType = fuelType;
         }
+
+        public override string Describe()
+        {
+            return $"Car | RegNr: {RegNr}, Color: {Color}, Wheels: {NumberOfWheels}, Fuel: {FuelType}";
+        }
     }
 }

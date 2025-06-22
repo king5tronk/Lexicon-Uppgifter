@@ -13,6 +13,11 @@ namespace Uppgift5_Garage.Vehicles
         {
             Seats = seats;
         }
+
+        public override string Describe()
+        {
+            return $"Bus | RegNr: {RegNr}, Color: {Color}, Wheels: {NumberOfWheels}, Seats: {Seats}";
+        }
     }
 
 }

@@ -13,5 +13,10 @@ namespace Uppgift5_Garage.Vehicles
         {
             NumberOfEngines = numberOfEngines;
         }
+
+        public override string Describe()
+        {
+            return $"Airplane | RegNr: {RegNr}, Color: {Color}, Wheels: {NumberOfWheels}, Engines: {NumberOfEngines}";
+        }
     }
 }

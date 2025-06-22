@@ -8,10 +8,15 @@ namespace Uppgift5_Garage.Vehicles
 {
     public class Motorcycle : Vehicle
     {
-        public int CylinerVolume { get; set; }
+        public int CylinderVolume { get; set; }
         public Motorcycle(string regNr, string color, int wheels, int cylinerVolume) : base(regNr, color, wheels)
         {
-            CylinerVolume = cylinerVolume;
+            CylinderVolume = cylinerVolume;
+        }
+
+        public override string Describe()
+        {
+            return $"Motorcycle | RegNr: {RegNr}, Color: {Color}, Wheels: {NumberOfWheels}, Cylinder: {CylinderVolume}cc";
         }
     }
 }

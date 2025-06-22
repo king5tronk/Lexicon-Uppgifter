@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            IUI ui = new ConsoleUI();
+            int capacity = ui.ReadInt("Ange garagekapacitet: ");
+            IHandler handler = new GarageHandler(capacity);
+            var controller = new GarageController(ui, handler);
+            controller.Run();
         }
     }
 }

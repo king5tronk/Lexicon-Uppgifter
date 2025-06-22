@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift4 Minneshantering", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift5 Garage", "Uppgift5 Garage\Uppgift5 Garage.csproj", "{B94E85FD-9BE0-4389-9C26-BAE45D6EC6AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift5 Garage Tests", "Uppgift5 Garage Tests\Uppgift5 Garage Tests.csproj", "{5B93040A-DF89-4B22-93BE-BA546E0F5B0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B94E85FD-9BE0-4389-9C26-BAE45D6EC6AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B94E85FD-9BE0-4389-9C26-BAE45D6EC6AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B94E85FD-9BE0-4389-9C26-BAE45D6EC6AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B93040A-DF89-4B22-93BE-BA546E0F5B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B93040A-DF89-4B22-93BE-BA546E0F5B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B93040A-DF89-4B22-93BE-BA546E0F5B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B93040A-DF89-4B22-93BE-BA546E0F5B0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
